@@ -1,0 +1,46 @@
+id = "plume_shader"
+kind = "shader"
+name = "Plume Shader"
+summary = "Raster-only Horizon shader with golden-hour sunlight, volumetric clouds, waving foliage, colored dynamic lighting, and planar water reflections."
+description = """
+Plume Shader (Beta) is a raster-only shader pack for Horizon (Shader API 0.2).
+
+## Features
+- **Sun, Sky & Clouds:** Golden-hour sunlight, directional sky palette, aerial perspective haze, crepuscular sun shafts, and volumetric clouds with altitude-based shapes and weather transitions.
+- **Colored & Dynamic Lighting:** Colored volumetric block light (torches, lava, glowstone, and more) plus dynamic lighting from held and dropped light items.
+- **Water & Reflections:** Clear water with depth tint, ripples, planar mirror reflections, and screen-space reflections (SSR) on water and wet/polished surfaces.
+- **Foliage & Weather:** Waving foliage with shadow alignment and cave/distance attenuation, plus custom translucent rain and snow.
+- **Post-Processing & Presets:** Linear-light bloom, optional spatial edge smoothing, and four tuned quality presets (**Lite**, **Balanced**, **High**, **Ultra**) with no slider clutter.
+"""
+authors = ["coke"]
+owners = ["coke11221"]
+owner_ids = [91124210]
+license = "All Rights Reserved"
+source = "https://github.com/coke11221/plume-shader"
+categories = ["semi-realistic", "colored-lighting", "shadows", "atmosphere"]
+tags = ["shadows", "water", "reflections", "volumetric", "clouds", "wind", "bloom", "sun-rays", "rain"]
+screenshots = [
+  "screenshots/plume_shader/main-cover.png",
+  "screenshots/plume_shader/world-lighting.png",
+  "screenshots/plume_shader/water-sunset.png",
+  "screenshots/plume_shader/clouds.png",
+  "screenshots/plume_shader/biomes.png",
+  "screenshots/plume_shader/natural-landscapes.png",
+  "screenshots/plume_shader/weather.png",
+  "screenshots/plume_shader/night-lighting.png",
+  "screenshots/plume_shader/cave-lighting.png",
+  "screenshots/plume_shader/closeup-details.png",
+]
+
+[[versions]]
+version = "0.7.8"
+published = "2026-11-21"
+game = "26.3"
+file = "plume_shader-0.7.8.hshader"
+sha256 = "44e6162d33ecc75ed01e2fb656e74bc14aa0ab0491a3c39f86bebd4f472ff775"
+changelog = """
+Initial beta release of Plume Shader (v0.7.8) for Horizon Shader API 0.2:
+- Four quality presets (Lite, Balanced, High, Ultra)
+- Golden-hour sunlight, volumetric clouds, directional sky and aerial perspective haze
+- Colored volumetric and dynamic block lighting, waving foliage, planar water mirror + SSR, custom rain and snow, bloom, and optional edge smoothing
+"""
