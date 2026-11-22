@@ -17,19 +17,18 @@ owners = ["coke11221"]
 owner_ids = [91124210]
 license = "All Rights Reserved"
 source = "https://github.com/coke11221/plume-shader"
-categories = ["semi-realistic", "colored-lighting", "shadows", "atmosphere"]
+icon = "icons/plume_shader.png"
+categories = ["semi-realistic", "colored-lighting", "atmosphere"]
 tags = ["shadows", "water", "reflections", "volumetric", "clouds", "wind", "bloom", "sun-rays", "rain"]
 screenshots = [
-  "screenshots/plume_shader/main-cover.png",
-  "screenshots/plume_shader/world-lighting.png",
-  "screenshots/plume_shader/water-sunset.png",
-  "screenshots/plume_shader/clouds.png",
-  "screenshots/plume_shader/biomes.png",
-  "screenshots/plume_shader/natural-landscapes.png",
-  "screenshots/plume_shader/weather.png",
-  "screenshots/plume_shader/night-lighting.png",
-  "screenshots/plume_shader/cave-lighting.png",
-  "screenshots/plume_shader/closeup-details.png",
+  "screenshots/plume_shader/main-cover.jpg",
+  "screenshots/plume_shader/world-lighting.jpg",
+  "screenshots/plume_shader/water-sunset.jpg",
+  "screenshots/plume_shader/clouds.jpg",
+  "screenshots/plume_shader/biomes.jpg",
+  "screenshots/plume_shader/weather.jpg",
+  "screenshots/plume_shader/night-lighting.jpg",
+  "screenshots/plume_shader/cave-lighting.jpg",
 ]
 
 [[versions]]
